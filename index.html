@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Juan Ruiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="practicum, html, css, javascript," />
+    <meta
+      name="description"
+      content="interactive page where users can add and remove photos, like photos of other users, and make a few minor adjustments to their own profile."
+    />
+    <title>Around the U.S.</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+  </head>
+  <body class="page">
+    <div class="page__content">
+      <header class="header page__section">
+        <img src="./images/Around-logo.svg" alt="Around The U.S. Logo" />
+      </header>
+      <main class="content">
+        <section class="profile page__section">
+          <img
+            class="profile__image"
+            src="./images/jacques-cousteau.jpg"
+            alt="Avatar"
+          />
+          <div class="profile__info">
+            <h1 class="profile__title">Jacques Cousteau</h1>
+            <button class="profile__edit-button"></button>
+            <p class="profile__description">Explorer</p>
+          </div>
+          <button class="profile__add-button"></button>
+        </section>
+        <section class="cards page__section">
+          <ul class="card__list">
+            <li class="card">
+              <img class="card__image" src="./images/yosemite.jpg" />
+              <div class="card__description">
+                <h2 calss="card__title">Yosemite Valley</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img class="card__image" src="./images/lake-louise.jpg" />
+              <div class="card__description">
+                <h2 class="card__title">Lake Louise</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img class="card__image" src="./images/bald-mountains.jpg" />
+              <div class="card__description">
+                <h2 card="card__title">Bald Mountains</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img class="card__image" src="./images/latemar.jpg" />
+              <div class="card__description">
+                <h2 class="card__title">Latemar</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img class="card__image" src="./images/vanoise.jpg" />
+              <div class="card__description">
+                <h2 class="card__title">Vanoise Nationa...</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img class="card__image" src="./images/lago.jpg" />
+              <div class="card__description">
+                <h2 class="card__title">Lago di Braies</h2>
+                <button class="card__like-button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <footer class="footer page__section">
+          <p class="footer__copyright">© 2022 Around The U.S.</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
