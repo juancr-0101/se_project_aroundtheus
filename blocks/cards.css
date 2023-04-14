@@ -6,6 +6,7 @@
   flex-direction: column;
   list-style: none;
   border-radius: 10px;
+  overflow: hidden;
 }
 .cards__list {
   display: grid;
@@ -45,4 +46,7 @@
   width: 21px;
   height: 18px;
   border: none;
+}
+.card__like-button:hover {
+  opacity: 0.5;
 }
